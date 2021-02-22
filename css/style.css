@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+}
+
+.main_div {
+    font-family: Arial, sans-serif;
+    background-color: #8dc63f;
+}
+
+.clear:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 960px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.header {
+    padding: 15px 0;
+}
+
+.logo {
+    float: left;
+}
+
+.contacts {
+    float: right;
+}
+
+.logo p,
+.contacts p {
+    margin: 0;
+    color: #39930d;
+    font-size: 22px;
+}
+
+.logo p {
+    float: left;
+}
+
+.logo b {
+    display: block;
+    font-size: 44px;
+}
+
+.logo img {
+    float: left;
+    margin-left: 35px;
+}
+
+.contacts a {
+    color: #39930d;
+    font-size: 22px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.logo i,
+.contacts i {
+    color: #5a5a5a;
+    font-size: 14px;
+}
+
+.contacts i {
+    display: block; 
+    text-align: right;
+}
+
+.stadion {
+    width: 100%;
+}
+
+.main {
+    margin-bottom: 45px;
+}
+
+.main_text {
+    float: left;
+    max-width: 600px;
+}
+
+.main_text h1 {
+    color: #39930d;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main_text p {
+    color: #343434;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.menu {
+    float: right;
+    width: 300px;
+}
+
+.menu p {
+    padding: 16px 20px 11px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #39930d;
+}
+
+.menu ul {
+    padding-left: 20px;
+    list-style:none;
+}
+
+.menu a:hover{
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.menu a {
+    color: #39930d;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.end {
+    margin: 0 -15px;
+    padding: 17px 15px 14px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #39930d;
+}
