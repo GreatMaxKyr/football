@@ -115,15 +115,18 @@ body {
 }
 
 .menu a:hover{
-    color: darkgreen;
+    color: #343434;
+    background-color: #5a5a5a;
     text-decoration: none;
 }
 
 .menu a {
+    display: block;
     color: #39930d;
     font-size: 14px;
     line-height: 30px;
     text-transform: uppercase;
+    transition: all 1s ease;
 }
 
 .end {
