@@ -115,9 +115,8 @@ body {
 }
 
 .menu a:hover{
-    color: #343434;
-    background-color: #5a5a5a;
-    text-decoration: none;
+    color: #bfb;
+    background-color: #39930d;
 }
 
 .menu a {
