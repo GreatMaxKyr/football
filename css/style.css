@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    cursor: url(../img/cursor_ball.cur),auto;
 }
 
 .main_div {
@@ -59,6 +60,10 @@ body {
     font-size: 22px;
     text-align: right;
     text-decoration: none;
+}
+
+.contacts a:hover {
+    cursor: url(../img/cursor_ball.cur),auto; 
 }
 
 .logo i,
@@ -126,6 +131,10 @@ body {
     line-height: 30px;
     text-transform: uppercase;
     transition: all 1s ease;
+}
+
+.menu a:hover {
+    cursor: url(../img/cursor_ball.cur),auto;   
 }
 
 .end {
