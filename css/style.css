@@ -26,12 +26,9 @@ body {
     padding: 15px 0;
 }
 
-.logo {
-    float: left;
-}
-
+.logo ,
 .contacts {
-    float: right;
+    text-align: center;
 }
 
 .logo p,
@@ -41,18 +38,14 @@ body {
     font-size: 22px;
 }
 
-.logo p {
-    float: left;
-}
-
 .logo b {
     display: block;
     font-size: 44px;
 }
 
 .logo img {
-    float: left;
-    margin-left: 35px;
+    margin: 20px 35px;
+    display: inline-block;
 }
 
 .contacts a {
@@ -74,20 +67,17 @@ body {
 
 .contacts i {
     display: block; 
-    text-align: right;
 }
 
 .stadion {
     width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 75%;
 }
 
 .main {
     margin-bottom: 45px;
-}
-
-.main_text {
-    float: left;
-    max-width: 600px;
 }
 
 .main_text h1 {
@@ -100,11 +90,6 @@ body {
     color: #343434;
     font-size: 14px;
     line-height: 21px;
-}
-
-.menu {
-    float: right;
-    width: 300px;
 }
 
 .menu p {
@@ -143,4 +128,57 @@ body {
     color: #fff;
     font-size: 14px;
     background-color: #39930d;
+}
+
+@media screen and (min-width: 630px) {
+    .logo {
+        float: left;
+    }
+
+    .logo p {
+        float: left;
+        text-align: left;
+    }
+
+    .logo img {
+        float: left;
+    }
+
+    .contacts {
+        float: right;
+    }
+
+    .contacts i {
+        text-align: right;
+    }
+
+    .logo img {
+        margin: 0 35px;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .main_text {
+        float: left;
+        width: 55%;
+    }
+    
+    .menu {
+        float: right;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 830px) {
+    .main_text {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .main_text {
+        width: 600px;
+    }
 }
